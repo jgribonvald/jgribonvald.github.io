@@ -16,69 +16,6 @@
     <link rel="stylesheet" href="css/esup-theme.css">
 
     <link rel="stylesheet" href="plugin/highlight/default.min.css">
-    <script type="text/css" >
-      #smiley-wrapper {
-        max-width: 300px;
-        margin: 120px auto;
-        padding: 0px 20px;
-      }
-      .smiley {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        margin-right: 20px;
-      }
-      .smiley-green {
-        background: #a9db7a;
-        border: 5px solid #92c563;
-        position: relative;
-      }
-      .smiley-green .left-eye {
-        width: 18%;
-        height: 18%;
-        background: #84b458;
-        position: relative;
-        top: 29%;
-        left: 22%;
-        border-radius: 50%;
-        float: left;
-      }
-      .smiley-green .right-eye {
-        width: 18%;
-        height: 18%;
-        border-radius: 50%;
-        position: relative;
-        background: #84b458;
-        top: 29%;
-        right: 22%;
-        float: right;
-      }
-      .smiley-green .smile {
-        position: absolute;
-        top :67%;
-        left: 16.5%;
-        width: 70%;
-        height: 20%;
-        overflow: hidden;
-      }
-      .smiley-green .smile:after, .smiley-green .smile:before {
-        content: "";
-        position:absolute;
-        top: -50%;
-        left: 0%;
-        border-radius: 50%;
-        background: #84b458;
-        height: 100%;
-        width: 97%;
-      }
-      .smiley-green .smile:after {
-        background: #84b458;
-        height: 80%;
-        top: -40%;
-        left: 0%;
-      }
-    </script>
-
 
   </head>
 
@@ -153,7 +90,7 @@
           <div class="slide-content">
             <p><ul>
               Chiffres ENT :
-              <li>~250 établissements</li>
+              <li>~250 établissements d'enseignement secondaire</li>
               <li>jusqu'à 140 000 connexions par jour</li>
               <li>+ de 120 000 utilisateurs distincts par mois</li>
               <li>des chefs d'établissement pas toujours impliqués</li>
@@ -163,7 +100,7 @@
             <ul>
               Étude des usages :
               <li>problèmes d'ergonomie -> refonte complète de l'ENT (portail, et services)</li>
-              <li>Esup-News et autres services vieillissant/devenus inadaptés</li>
+              <li>Esup-News et autres services vieillissants/devenus inadaptés</li>
             </ul>
             </p>
           </div>
@@ -185,7 +122,7 @@
               <li>pouvoir déléguer/faire participer les différentes populations</li>
               <li>simple et ergonomique pour les producteurs d'informations</li>
               <li>paramétrage le plus simple possible</li>
-              <li>restitutions la mieux adaptée et intégrée pour différents besoins : actualités, flash-infos, documents, alertes, ... </li>
+              <li>restitution la mieux adaptée et intégrée pour différents besoins : actualités, flash-infos, documents, alertes, ... </li>
               <li>attractivité de la page d'accueil ENT</li>
               <li>mobilité (RWD)</li>
               <li>solution évolutive pour étendre les usages</li>
@@ -229,127 +166,148 @@
         </section>
 
         <!--///////////////////////////////////////////-->
-<!--
-        <section class="divider">
-          <header>
-            <h2 class="shadow">Titre principal de la pr&eacute;sentation (sur plusieurs lignes si n&eacute;cessaire)</h2>
-            <img class="cloud" src="./img/cloud.png" alt="">
-            <img class="event-title" src="./img/event-title.png" alt="">
-            <div class="topics">
-              <ul>
-                <li>Texte 1</li>
-                <li>Texte 2</li>
-                <li>Texte 3</li>
-              </ul>
-              <div class="line-divider"></div>
-            </div>
-            <h3>Titre de section</h3>
-          </header>
-        </section>
--->
-        <!--///////////////////////////////////////////-->
-<!--
+
         <section>
           <header>
-            <h2>Titre slide</h2>
-            <h3 class="shadow">Mon sous-titre</h3>
+            <h2>Fonctionnalités</h2>
+            <h3 class="shadow">Une bonne ergonomie pour une utilisation simple et rapide</h3>
           </header>
           <div class="slide-content">
             <ul>
-              <li>1er niveau
+              <li>Utiliser les bonnes technologies
                 <ul>
-                  <li>
-                    2e niveau
-                    <ul>
-                      <li>3e niveau
-                        <ul>
-                            <li>4e niveau
-                              <ul>
-                                <li>5e niveau</li>
-                              </ul>
-                            </li>
-                          </ul>  
-                      </li>
-                    </ul>
-                  </li>
+                  <li>Bonne réactivité et fluidité via front-end exécuté sur le client</li>
+                  <li>CSS adaptive (composant bootstrap, comportements à la Material Design, CSS3, flexbox layout) </li>
+                  <li>Robustesse et sécurité via un backend java</li>
+                  <li>Un backend souple et simple</li>
+                </ul>
+              </li>
+              <li>aller à l'essentiel afin d'avoir des interfaces épurées sans surcharge
+                <ul>
+                  <li>quand il y a trop de choses affichées l'utilisateur est perdu</li>
+                </ul>
+              </li>
+              <li>prendre le temps de réfléchir aux cinématiques afin qu'elles soient courtes.
+                <ul>
+                  <li>si c'est trop long et fastidieux l'utilisateur abondonne et se détourne de l'outil.</li>
                 </ul>
               </li>
             </ul>
-          </div>
-          <footer>
-            <img src="./img/communaute.png" alt="">
-          </footer>
-        </section>
--->
-        <!--///////////////////////////////////////////-->
-<!--
-        <section>
-          <header>
-            <h2>Titre slide</h2>
-            <h3 class="shadow">Mon sous-titre</h3>
-          </header>
-          <div class="slide-content">
-            <ul>
-              <li><span class="really-important">Really important<span></li>
-              <li>Quelque chose d’<span class="important">important à souligner</span> dans mon texte
-                <ul>
-                  <li>D’autres informations… <span class="somewhat-important">Plus ou moins</span> importantes
-                    <ul>
-                      <li>Sous-point (un peu plus petit)
-                        <ul>
-                          <li>Encore plus petit</li>
-                        </ul>
-                      </li>
-                    </ul>  
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <footer>
-            <img src="./img/communaute.png" alt="">
-          </footer>
-        </section>
--->
-        <!--///////////////////////////////////////////-->
-<!--
-        <section>
-          <header>
-            <h2>Mon titre</h2>
-            <h3 class="shadow">Mon sous-titre</h3>
-          </header>
-          <div class="slide-content">
-            <p>
-              Simple text...              
-            </p>
+            <p>=> pas toujours évident et il faut savoir limiter les options !</p>
+
           </div>
           <footer>
             <img src="./img/communaute.png" alt="">
           </footer>
         </section>
 
--->
         <!--///////////////////////////////////////////-->
-<!--
+
         <section>
           <header>
-            <h2>Mon titre</h2>
-            <h3 class="shadow">Mon sous-titre</h3>
+            <h2>Fonctionnalités</h2>
+            <h3 class="shadow">Publication contextualisée et typée par rapport à l'affichage souhaité</h3>
           </header>
           <div class="slide-content">
-            <p>
-              Simple text w/ 1 img...
-              <div class="gallery-item">
-                <img src="img/example_large.png" alt"Exemple de screenshot">
-                <span>L&eacute;gende de l'image</span>
-              </div>
-            </p>
+            <ul>
+              <li>Différents lieux de restitution:
+                <ul>
+                  en en-tête de la page d'accueil, en page d'accueil (résumé), services spécifiques
+                </ul>
+              </li>
+              <li>différents rendus :
+                <ul>
+                  slide-show, categorisation-arbre/filtrage, simple mais spécifique, flux rss, notifications
+                </ul>
+              </li>
+              <li>différentes informations (et leur importance) :
+                <ul>
+                  actualités, évènements, documents, alertes, contenus "statics"
+                </ul>
+              </li>
+            </ul>
           </div>
           <footer>
             <img src="./img/communaute.png" alt="">
           </footer>
         </section>
--->
+        <!--///////////////////////////////////////////-->
+
+        <section>
+          <header>
+            <h2>Fonctionnalités</h2>
+            <h3 class="shadow">Publication contextualisée et typée par rapport à l'affichage souhaité</h3>
+          </header>
+          <div class="slide-content">
+            <ul> Soit :
+              <li>nécessité de distinguer le type de contenus</li>
+              <li>centrer la rédaction sur l'élément principal du contenu</li>
+              <li>contextualiser afin de différencier les cinématiques</li>
+            </ul>
+          </div>
+          <footer>
+            <img src="./img/communaute.png" alt="">
+          </footer>
+        </section>
+
+        <!--///////////////////////////////////////////-->
+
+        <section>
+          <header>
+            <h2>Fonctionnalités</h2>
+            <h3 class="shadow">Définition du public cible lors de la rédaction ou ancien mode</h3>
+          </header>
+          <div class="slide-content">
+            <ul>
+              <li>Uniquement sur les rubriques comme dans Esup-news (pas pratique mais encore nécessaire pour certains cas généraux)</li>
+              <li>En fin de rédaction d'une actualité</li>
+              <li>Ciblage pouvant être limité par permission en fonction de l'utilisateur</li>
+              <li>Différentes recherches possible :
+                <ul>
+                  <li>un utilisateur précis</li>
+                  <li>un utilisateur à partir d'un groupe</li>
+                  <li>un groupe, à partir de l'arborecence des groupes (Tous établissement ou par population Élèves, Parents, Enseignants, Personnel ou plus fin par classe, enseignement</li>
+                </ul>
+              </li>
+              <li>Possibilité de définir une cible par expression régulière sur des attributs ldap (limité aux admins de l'outil)</li>
+            </ul>
+          </div>
+          <footer>
+            <img src="./img/communaute.png" alt="">
+          </footer>
+        </section>
+
+        <!--///////////////////////////////////////////-->
+
+        <section>
+          <header>
+            <h2>Fonctionnalités</h2>
+            <h3 class="shadow">Gestion des permissions sur des groupes</h3>
+          </header>
+          <div class="slide-content">
+            <ul>
+              <li>C'était le gros manque dans Esup-news</li>
+              <li>Assez compliqué à réaliser au départ (mais merci spring-security)</li>
+              <li>2 types de permission possible:
+                <ul>
+                  <li>simple</li>
+                  <li>avec définition des cibles autorisées => Permet d'autoriser des parents ou des élèves à publier des contenus destinés et limités à certaines populations</li>
+                </ul>
+              </li>
+              <li>des niveaux de droits administrateur, éditeur, contributeur
+                <ul>
+                  <li>administrateur: gère les contextes en plus des autres droits</li>
+                  <li>éditeur: modère et publie des contenus dans son(ses) contexte(s)</li>
+                  <li>contributeur: propose des publications soumises à validation</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <footer>
+            <img src="./img/communaute.png" alt="">
+          </footer>
+        </section>
+
         <!--///////////////////////////////////////////-->
 
         <section>
@@ -361,9 +319,9 @@
             <ul>
             Usages :
               <li>133 établissements ont publiés au moins 1 fois </li>
-              <li>2891 actualités</li>
-              <li>285 flash-infos</li>
-              <li>753 documents</li>
+              <li>3000 actualités</li>
+              <li>300 flash-infos</li>
+              <li>750 documents</li>
             </ul>
           </div>
           <footer>
